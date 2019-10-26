@@ -3,8 +3,8 @@ import React from 'react'
 const FilmPoster = (props) => {
     return (
     
-             <div className="film-row">
-  <img src={props.poster} alt="" />
+             <div>
+  <img src={props.poster} alt="https://image.tmdb.org/t/p/w500/" />
         </div>
     )
 }
